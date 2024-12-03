@@ -4,15 +4,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = environ.get("API_ID" , "2099007")
-API_HASH = environ.get("API_HASH" , "b1b3d7b3b1b3d7b3b1b3d7b3b1b3d7b3")
-BOT_TOKEN = environ.get("BOT_TOKEN" , "2099007:AAH1b3d7b3b1b3d7b3b1b3d7b3b1b3d7b3")
-ADMIN = int(environ.get("ADMIN" , "1847899007"))
-CHAT_GROUP = int(environ.get("CHAT_GROUP", "-100"))
-LOG_CHANNEL = environ.get("LOG_CHANNEL", "-100")
-MONGO_URL = environ.get("MONGO_URL" , "mongodb://localhost:27017")
+API_ID = environ.get("API_ID" , "12380656")
+API_HASH = environ.get("API_HASH" , "d927c13beaaf5110f25c505b7c071273")
+BOT_TOKEN = environ.get("BOT_TOKEN" , "7328112987:AAE-m8fhi09-5GtdiSI0Lii8Qvpkg7Snnfs")
+ADMIN = int(environ.get("ADMIN" , "5977931010"))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002028053413"))
+LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002114619001")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://ranjuvishwakarma50:aman@cluster0.uvah8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 AUTH_CHANNEL = int(
-    environ.get("AUTH_CHANNEL", "-1001734958816")
+    environ.get("AUTH_CHANNEL", "-1002114619001")
 )
 FSUB = environ.get("FSUB", True)
 STICKERS_IDS = (
